@@ -52,66 +52,66 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Eymard Silva',
     description: '',
     imageURL: '',
   },
   social: {
     linkedin: 'ariful-alam',
     x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    mastodon: 'eymardsilva@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'ei_mard',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'eym_silva',
+    dev: 'eym_silva',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://mardsilva.github.io/profile/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'eym_silva@outlook.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'C#',
+    '.NET',
+    '.NET Core',
+    'Blazor',
+    'EF Core',
+    'SQL',
+    'PL-SQL',
+    'MySQL/SQLite',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'PostgreeSQL',
+    'MongoDB',
+    'Kubernetes',
+    'RabbitMQ',
+    'Microservices/Monolith',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Serviços Partilhados do Ministério da Saúde de Portugal',
+      position: '.NET Developer',
+      from: 'Feb/2025',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.spms.min-saude.pt/',
     },
     {
-      company: 'Company Name',
+      company: 'Noatum Logistics',
       position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      from: 'Ago/2024',
+      to: 'Dez/2024',
+      companyLink: 'https://www.noatumlogistics.com/',
     },
   ],
   certifications: [
@@ -124,43 +124,43 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'IGTI',
+      degree: 'Post graduate in Software Architecture and SOlutions',
+      from: '2022',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'UNINTER - Centro Universitário Internacional',
+      degree: 'Associate Degree',
+      from: '2018',
+      to: '2022',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Why is Clean Architecture Essential in Software Development?',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'LinkedIn Articles',
+      authors: 'Eymard Silva',
+      link: 'https://www.linkedin.com/pulse/why-clean-architecture-essential-software-development-eymard-silva-qt3kf/?trackingId=TX%2F9%2F1%2F2T3K1DbNUcU89yQ%3D%3D',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Have you ever faced systems that turned into a tangled mess of code, hard to modify and even harder to test? If so, you've experienced the struggle of poorly structured code. But don’t worry, there’s a solution: Clean Architecture!',
     },
     {
-      title: 'Publication Title',
+      title: 'Delving into Unit Test Naming Conventions in .NET',
       conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'LinkedIn Articles',
+      authors: 'Eymard Silva',
+      link: 'https://www.linkedin.com/pulse/delving-unit-test-naming-conventions-net-eymard-silva-lxlbf/?trackingId=TX%2F9%2F1%2F2T3K1DbNUcU89yQ%3D%3D',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Delving into Unit Test Naming Conventions in .NET: Dive into the art of naming conventions in .NET unit testing. Drawing from the insights of Julio Casal and Pierre 🐐 Belin, this article delves deep into naming patterns that amplify clarity and understanding of tests. A must-read for developers aiming to refine their testing practices.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'medium', // medium | dev
+    username: 'eym_silva', // to hide blog section, keep it empty
+    limit: 4, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
