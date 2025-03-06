@@ -144,7 +144,7 @@ const CONFIG = {
       authors: 'Eymard Silva',
       link: 'https://www.linkedin.com/pulse/why-clean-architecture-essential-software-development-eymard-silva-qt3kf/?trackingId=TX%2F9%2F1%2F2T3K1DbNUcU89yQ%3D%3D',
       description:
-        'Have you ever faced systems that turned into a tangled mess of code, hard to modify and even harder to test? If so, you've experienced the struggle of poorly structured code. But don’t worry, there’s a solution: Clean Architecture!',
+        'Have you ever faced systems that turned into a tangled mess of code, hard to modify and even harder to test? If so, you have experienced the struggle of poorly structured code. But don’t worry, there’s a solution: Clean Architecture!',
     },
     {
       title: 'Delving into Unit Test Naming Conventions in .NET',
